@@ -61,6 +61,12 @@ class _MainScreenState extends State<MainScreen> {
 
       ]),
       body: cuurentpage,
+      appBar: currentabindex==1 ? AppBar(
+        title: Text("Your Food Cart",style: TextStyle(color: Colors.black),),
+        elevation: 0.0,
+        centerTitle: true,
+        backgroundColor: Colors.white,
+      ) : null,
       
     );
   }

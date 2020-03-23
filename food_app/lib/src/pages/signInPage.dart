@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:food_app/src/pages/signupPage.dart';
 import 'package:food_app/src/screens/mainScreen.dart';
 
 
@@ -138,6 +139,8 @@ class _SignInPageState extends State<SignInPage> {
                     SizedBox(width: 10.0),
                     GestureDetector(
                       onTap: () {
+                         Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (BuildContext context) => SignUpPage()));
                         
                       },
                       child: Text(

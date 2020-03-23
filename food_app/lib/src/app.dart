@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/src/homescreen.dart';
 import 'package:food_app/src/pages/signInPage.dart';
+
 
 
 class App extends StatelessWidget {
@@ -14,7 +16,7 @@ class App extends StatelessWidget {
         
       ),
 
-      home: SignInPage(),
+      home: SignInPage()
 
       
     );
